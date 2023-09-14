@@ -21,13 +21,13 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_NC_3_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Biomedical()]
-CATEGORY: Category = Category.Biology()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Medical()]
+CATEGORY: Category = Category.Medical()
 
 CV_TASKS: List[CVTask] = [
     CVTask.InstanceSegmentation(),
-    CVTask.ObjectDetection(),
     CVTask.SemanticSegmentation(),
+    CVTask.ObjectDetection(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [CVTask.InstanceSegmentation()]
 
