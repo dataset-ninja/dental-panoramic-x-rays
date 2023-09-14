@@ -26,8 +26,8 @@ CATEGORY: Category = Category.Biology()
 
 CV_TASKS: List[CVTask] = [
     CVTask.InstanceSegmentation(),
-    CVTask.ObjectDetection,
-    CVTask.SemanticSegmentation,
+    CVTask.ObjectDetection(),
+    CVTask.SemanticSegmentation(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [CVTask.InstanceSegmentation()]
 
@@ -47,9 +47,9 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/dental-panoramic-x-rays"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[
-    Union[str, dict]
-] = "https://data.mendeley.com/datasets/hxt48yk462/2"
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = [
+    "https://data.mendeley.com/datasets/hxt48yk462/2"
+]
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
