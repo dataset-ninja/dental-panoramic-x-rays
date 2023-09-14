@@ -21,7 +21,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_NC_3_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = Research.Biomedical()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Biomedical()]
 CATEGORY: Category = Category.Biology()
 
 CV_TASKS: List[CVTask] = [
@@ -38,7 +38,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4652330/"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 3925753
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/dental-panoramic-x-rays"
