@@ -35,7 +35,7 @@ RELEASE_DATE: Optional[str] = "2017-11-12"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4652330/"
+HOMEPAGE_URL: str = None
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 3925753
@@ -108,7 +108,6 @@ def get_settings():
         "cv_tasks": CV_TASKS,
         "annotation_types": ANNOTATION_TYPES,
         "release_year": RELEASE_YEAR,
-        "homepage_url": HOMEPAGE_URL,
         "preview_image_id": PREVIEW_IMAGE_ID,
         "github_url": GITHUB_URL,
     }
@@ -119,6 +118,7 @@ def get_settings():
     settings["release_date"] = RELEASE_DATE
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL
     settings["class2color"] = CLASS2COLOR
+    settings["homepage_url"] = HOMEPAGE_URL
     settings["paper"] = PAPER
     settings["blog"] = BLOGPOST
     settings["repository"] = REPOSITORY
