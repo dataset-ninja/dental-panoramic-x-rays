@@ -1,6 +1,6 @@
 Dataset **Panoramic Dental X-rays** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/R/w/J0/kRw3mTJL1vSDzglVqIBku2o3cKlmoiv633xY6mdcgzzBKnavgR5qYtlgDMKdurpxboNyaESmDkT6pN3bx1pDFhtMqHcmzGJuTcSSskZXce6oHaBTuTlyPMVmI13f.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/y/A/DS/FTOXPbAvBdm8A0JANQyP2rQjfd0O9tMQ3kkE2EVvHXxXuC9ygQ5wB9rkIcV3DXEdgJvbZYIFRxOta4PkJdYrW2qHgWzhjeTr2SRFpGXtT8MX7i0eOqNun9z8zV2z.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
