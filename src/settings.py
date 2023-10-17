@@ -35,7 +35,7 @@ RELEASE_DATE: Optional[str] = "2017-11-12"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = None
+HOMEPAGE_URL: str = "https://data.mendeley.com/datasets/hxt48yk462/2"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 3925753
