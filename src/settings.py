@@ -65,6 +65,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4652330/"
 AUTHORS: Optional[List[str]] = ["Amir Hossein Abdi", "Shohreh Kasaei", "Mojdeh Mehdizadeh"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["skasaei@sharif.edu"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "Sharif University of Technology, Department of Computer Engineering, Iran",
@@ -124,6 +125,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
