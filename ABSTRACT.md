@@ -2,17 +2,17 @@ The **Panoramic Dental X-rays With Segmented Mandibles** dataset provides segmen
 
 For the first subset, a maxillofacial radiologist sorted out the panoramic x-rays based on several qualitative features such as the width of ramuses, the vertical distance between the alveolar process and inferior border of the mandible, the acuteness of gonial angle (n), overall convexity of inferior border (g), whether there was a concavity around the gonial angle, shape of coronoid process (m), shape of condyles (p), and depth of sigmoid notch (e). She then purposefully selected 116 images to cover all varieties of mandible shapes seen on panoramic X-rays regarding these criteria. These images were considered templates of the atlas.
 
-![Fig. 2](https://i.ibb.co/jrPjWx0/JMI-002-044003-g002.jpg)
+![Fig. 2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4652330/bin/JMI-002-044003-g002.jpg)
 
 For the second subset, 30 images were chosen randomly from the same large dataset and grouped as the statistical set through which the parameters of the system were assigned.
 
 The mandibles of all 146 images were manually segmented by three expert dentists working at Shahid Beheshti University of Medical Sciences, Tehran. In order to generate a reliable unified ground truth for each x-ray, a voting policy was used. According to this voting policy, a pixel belonged to the object (mandible) if at least two of the three manual segmentations defined that pixel as an object:
 
-![Fig. 1](https://i.ibb.co/yftf4L8/JMI-002-044003-g001.jpg)
+![Fig. 1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4652330/bin/JMI-002-044003-g001.jpg)
 
 The figure below depicts the outputs of the automatic and manual mandible segmentations in some panoramic X-rays.
 
-![Fig. 3](https://i.ibb.co/X2z0nK5/JMI-002-044003-g007.jpg)
+![Fig. 3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4652330/bin/JMI-002-044003-g007.jpg)
 
 The results of the current study seem promising and can lead to further investigations in the field of automatic segmentation of structures in different head and neck radiography techniques. The output of this study can be used in various scenarios, such as improving registrations of panoramic X-rays through the information gained from a segmented mandible. It can affect dental biometrics, which has become a popular field of research. It is also a promising method for human identification.
 
